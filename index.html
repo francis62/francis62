@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>
+    Francisco Moyano | Desarrollador Backend
+  </title>
+
+  <link rel="icon" href="assets/images/titleLogo.png" type="image/icon type">
+
+  <meta name="keywords" content="Francisco Gonzalo Moyano, C#, Desarrollo de Software, Backend, .NET" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script>
+    function downloadCV(){
+      window.open("assets/files/CV - Francisco Gonzalo Moyano .pdf")
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- ***** Header START ***** -->
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">Sobre mí</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Experiencia</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+          <!--<li class="nav__item"><a href="#" class="btn">Cambiar idioma</a></li>-->
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Francisco Gonzalo <br> Moyano</span>
+        </h1>
+        <p>Desarrollador de Software Backend.</p>
+        <a href="#contact" class="btn">Contactame</a>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header END ***** -->
+
+  <main role="main">
+
+    <!-- ***** About START ***** -->
+    <section class="about" id="about">
+      <div class="row">
+        <h2>Sobre mí</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Desarrollador de software altamente motivado, enfocado en la
+              resolución de problemas y elaprendizaje continuo. Con capacidad
+              de adaptación ante desafíos y de colaboración con equipos 
+              multidisciplinarios con el fin de agregarvalor al mismo
+              con mis aptitudes.
+            </p>
+            <a onclick="downloadCV()" class="btn" style="cursor: pointer;">Descargar CV</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="assets/images/profileImage.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** About END ***** -->
+
+    <!-- ***** Experience START ***** -->
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Experiencia</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Aberturas Sarmiento</h3>
+              <p>
+                Desarrollo Frontend para empresa de aberturas
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="www.aberturassarmiento.com" target="_blank" class="link__text">
+                  Visitar página <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="assets/images/firstProject.png" class="work__image" alt="Proyecto 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Centro Estética Megara</h3>
+              <p>
+                Desarrollo Backend para empresa de estética
+              </p>
+              <ul class="work__list">
+                <li>.NET</li>
+                <li>ASP.NET</li>
+                <li>SQL Server</li>
+                <li>Entity Framework</li>
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+              </ul>
+
+              <!--<div class="work__links">
+                <a href="#" class="link__text">
+                  Visitar páginar <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="#" class="work__code" title="Ver código" alt="GitHub">
+                </a>
+              </div>-->
+            </div>
+            <div class="work__image-box">
+              <img src="assets/images/secondProject.png" class="work__image" alt="Proyecto 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Excperience END ***** -->
+
+
+    <!-- ***** Skills START ***** -->
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Habilidades</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="assets/images/cLogo.png" class="client__logo" alt="C#" />
+          <img src="assets/images/netCoreLogo.png" class="client__logo" alt=".NET CORE" />
+          <img src="assets/images/mysqlLogo.png" class="client__logo" alt="MySQL" />
+          <img src="assets/images/angularLogo.png" class="client__logo" alt="Angular" />
+          <img src="assets/images/htmlLogo.png" class="client__logo" alt="HTML" />
+          <img src="assets/images/cssLogo.png" class="client__logo" alt="CSS" />
+          <img src="assets/images/bootstrapLogo.png" class="client__logo" alt="Bootstrap" />
+          <img src="assets/images/githubLogo.png" class="client__logo" alt="GitHub" />
+        </div>
+      </div>
+    </section>
+    <!-- ***** Skills END ***** -->
+  </main>
+
+  <!-- ***** Contact START ***** -->
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contactame!</h2>
+      <div class="contact__info">
+        <p>
+          Desarrollador de software apasionado por la tecnología, con 
+          ganas de aportar valor al lugar donde me encuentre y poder aprender
+          constantemente de las personas que me rodean. La empatía, el 
+          aprendizaje y la colaboración son pilares en mi día a día.
+        </p>
+        <a href="mailto:franciscomoyano424@gmail.com" class="btn">Email</a>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Contact END ***** -->
+
+  <!-- ***** Footer START ***** -->
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/francis62" title="Link perfil Github" target="_blank">
+            <img src="assets/images/githubLogo.png" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/francisco-gonzalo-moyano/" target="_blank">
+            <img src="assets/images/linkedinLogo.png" title="Link perfil Linkedin" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <!-- ***** Footer END ***** -->
+
+  <a href="#top" class="back-to-top" title="Volver arriba">
+    <img src="assets/images/up-arrow.svg" alt="Volver arriba" class="back-to-top__image"/>
+  </a>
+  <script src="assets/scripts.js"></script>
+</body>
+
+</html>
