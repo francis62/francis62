@@ -306,6 +306,10 @@ body:not(.user-is-tabbing) a:focus {
     padding: var(--gutter-normal) 0;
 }
 
+.nav__item {
+    padding: 3%;
+}
+
 .nav__items {
     display: flex;
     list-style: none;
@@ -323,6 +327,7 @@ body:not(.user-is-tabbing) a:focus {
   background-color: black;
   margin: 4px 0;
 }
+
 
 @media (max-width: 767px) {
     .nav__items {
